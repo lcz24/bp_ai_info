@@ -11,7 +11,7 @@ API_KEY = "wk38vfS8UMtZOtez9Bu5k2AV"
 SECRET_KEY = "tikcipqvWUFQzUNrwukgDvgjoPKolIc8"
 class BurpExtender(IBurpExtender, IHttpListener, IContextMenuFactory, ITab, IMessageEditorTabFactory):
     def registerExtenderCallbacks(self, callbacks):
-        # 保存回调对象和助手对象以便之后使用
+        # 保存回调对象和助手对象以便之后使用1
         self._callbacks = callbacks
         self._helpers = callbacks.getHelpers()
         # 设置扩展名
